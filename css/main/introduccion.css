@@ -1,0 +1,73 @@
+/*Propiedades para la sección de la introducción*/
+
+/*Propiedades de la clase tittle*/
+.title{
+    width: 94.1%;
+    margin: 0;
+    background-color: var(--background-ceniza-oscuro);
+    padding: 2rem;
+    border: .5rem solid #000000;
+    display: block;
+}
+
+/*Propiedades para la clase title bio*/
+.title__bio{
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: .5rem;
+}
+
+/*Propiedades para la clase title subsection*/
+.title__subsection{
+    position: relative;
+    font-family: var(--roboto);
+    font-size: 1.2rem;
+    font-weight: lighter;
+    align-items: center;
+    padding: 1rem 1rem 0 1rem;
+}
+
+/*Propiedades para la clase title network*/
+.title__network{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 1rem 0 1rem;
+}
+
+/*Propiedades para la clase title network item*/
+.title__network__item{
+    margin: .70rem .90rem .70rem .90rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: var(--montserrat);
+    color: var(--background-footer);
+    background-color: var(--backgroun-blanco);
+    padding: .9rem;
+    border-radius: .3rem;
+    border: .1rem dashed var(--background-footer);
+    cursor: pointer;
+}
+
+/*Propiedades para la clase title network item*/
+.title__network__item:hover{
+    background-color: var(--boton-negro);
+}
+
+/*Para adaptar a laptops*/
+@media screen and (max-width: 1021px) {
+    /*Propiedades para la clase about*/
+    .title{
+        width: 96%;
+    }
+}
+
+/*Para adaptar a tablets*/
+@media screen and (max-width: 768px) {
+    /*Propiedades para la clase title*/
+    .title{
+        width: 99%;
+    }
+}

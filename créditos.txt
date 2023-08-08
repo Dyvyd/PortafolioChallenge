@@ -1,0 +1,17 @@
+Créditos de los íconos:
+-flaticon.es
+-freepick.es
+-iconixar
+-pixel perfect
+
+<a href="https://www.flaticon.es/iconos-gratis/unirse" title="unirse iconos">Unirse iconos creados por Icon Hubs - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/java" title="java iconos">Java iconos creados por Freepik - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/javascript" title="javascript iconos">Javascript iconos creados por edt.im - Flaticon</a>
+<a href="https://www.freepik.es/icono/hashtag_358980#position=27&page=1&term=c+sharp&fromView=search">Icono de Freepik</a>
+<a href="https://www.freepik.es/icono/%C3%A1spid_2305968#position=17&page=1&term=asp&fromView=search">Icono de iconixar</a>
+<a href="https://www.flaticon.es/iconos-gratis/microsoft" title="microsoft iconos">Microsoft iconos creados por Pixel perfect - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/html-5" title="html 5 iconos">Html 5 iconos creados por Pixel perfect - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/piton" title="pitón iconos">Pitón iconos creados por Freepik - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/servidor-sql" title="servidor sql iconos">Servidor sql iconos creados por Freepik - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/mysql" title="mysql iconos">Mysql iconos creados por Freepik - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/css" title="css iconos">Css iconos creados por Pixel perfect - Flaticon</a>

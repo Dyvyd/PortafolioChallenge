@@ -1,0 +1,81 @@
+/*Propiedades del pie de página*/
+
+/*Propiedades para la clase footer*/
+.footer{
+    position: absolute;
+    width: 87.5%;
+    display: block;
+    margin: 185em 0;
+    background-color: var(--background-footer);
+    border: .2rem solid #000000;
+}
+
+/*Propiedades para la clase creditos*/
+.creditos{
+    margin: .5rem 0;
+    font-family: var(--montserrat);
+    color: var(--background-blanco);
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+    padding: .9rem;
+}
+
+/*Propiedades para la clase creditos lista*/
+.creditos__lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Propiedades para la clase creditos lista autor*/
+.creditos__lista__autor{
+    padding: .1rem;
+    margin: .1rem;
+    color: var(--boton-negro);
+    text-decoration: solid;
+    font-family: var(--roboto);
+    font-size: 1rem;
+    text-align: center;
+    background-color: var(--background-ceniza-medio);
+    border: .1rem solid #000000;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+/*Propiedades para la clase creditos copyright*/
+.copyright{
+    color: var(--background-blanco);
+    font-size: .7rem;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+/*Para adaptar a laptops*/
+@media screen and (max-width: 1021px) {
+    /*Propiedades para la clase footer*/
+    .footer{
+        margin-top: 205em;
+        width: 96%;
+    }
+}
+
+/*Para adaptar a tablets*/
+@media screen and (max-width: 768px) {
+    /*Propiedades para la clase footer*/
+    .footer{
+        margin: 240em 0;
+        width: 97%;
+    }
+}
+
+/*Para adaptar a celulares*/
+@media screen and (max-width: 350px) {
+    /*Propiedades para la clase footer*/
+    .footer{
+        margin: 308em 0;
+        width: 100%;
+        padding: 2.2rem;
+    }
+}

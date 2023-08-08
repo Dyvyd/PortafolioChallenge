@@ -1,0 +1,95 @@
+/*Propiedades de la sección proyectos*/
+
+/*Propiedades para la clase experience*/
+.experience{
+    width: 94%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+/*Propiedades para la clase experience section title*/
+.experience__section__title{
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: var(--background-ceniza-medio);
+    border: .2rem solid #000000;
+}
+
+/*Propiedades para la clase experience box*/
+.experiencie__box{
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*Propiedades para la clase experience img*/
+.experience__img{
+    border: .1rem solid #000000;
+}
+
+/*Propiedades para la clase experience info*/
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Propiedades para la clase experience title*/
+.experience__title{
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    padding: .5rem;
+}
+
+/*Propiedades para la clase experience text*/
+.experience__text{
+    font-family: var(--roboto);
+    font-size: 1.2rem;
+    text-align: center;
+    padding: .5rem;
+}
+
+/*Propiedades para la clase experience description*/
+.experience__description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+/*Propiedades para la clase experience botones*/
+.experience__botones{
+    padding: .5rem;
+}
+
+/*Propiedades para la clase experience boton*/
+.experience__boton{
+    padding: .5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: var(--montserrat);
+    background-color: var(--boton-negro);
+    color: var(--background-ceniza-medio);
+    text-decoration: none;
+    border-radius: .3rem;
+    border: .12rem dashed var(--background-ceniza-medio);
+}
+
+/*Para adaptar a tablets*/
+@media screen and (max-width: 768px) {
+    /*Propiedades para la clase experience img*/
+    .experience__img{
+        width: 90%;
+    }
+}

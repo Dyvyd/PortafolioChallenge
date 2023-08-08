@@ -1,0 +1,35 @@
+/*Propiedades de la parte prncipal de la página*/
+
+/*Propiedades para la clase main*/
+.main{
+    position: absolute;
+    margin: 23rem 0;
+    display: inline;
+}
+
+/*Para adaptar a laptops*/
+@media screen and (max-width: 1021px) {
+    /*Propiedades para la clase main*/
+    .main{
+        margin: 23.5rem 0;
+        width: 100%;
+    }
+}
+
+/*Para adaptar a tablets*/
+@media screen and (max-width: 768px) {
+    /*Propiedades para la clase main*/
+    .main{
+        margin: 48rem 0rem;
+        width: 100%;
+        margin-left: auto;
+    }
+}
+
+/*Para adaptar a celulares*/
+@media screen and (max-width: 350px) {
+    /*Propiedades para la clase main*/
+    .main{
+        margin: 36rem 0rem;
+    }
+}

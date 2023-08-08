@@ -1,0 +1,129 @@
+/*Propiedades para la cabecera de la página*/
+
+/*Propiedades para la clase head*/
+.head{
+    width: 100%;
+    display: flex;
+}
+
+/*Propiedades para la clase header*/
+.header{
+    background-color: var(--background-header);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2.5% 0.9%;
+    position: absolute;
+    flex-wrap: wrap;
+    margin: 0;
+    flex-shrink: 2;
+    flex-grow: 2;
+}
+
+/*Propiedades para la foto*/
+.foto{
+    margin: 0 .5rem 0 .9rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+/*Propiedades para el navegador*/
+.menu{
+    display: flex;
+    align-items: inherit;
+}
+
+/*Propiedades para la lista*/
+.menu__list{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*Propiedades para los items de la lista*/
+.menu__list__item{
+    margin: .7rem .9rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: var(--montserrat);
+    color: var(--fuente-ceniza-claro);
+    text-decoration: none;
+    padding: .9rem;
+    border-radius: .3rem;
+    border: .1rem dashed var(--fuente-ceniza-claro);
+}
+
+/*Al pasar el mouse*/
+.menu__list__item:hover{
+    background-color: var(--background-blanco);
+}
+
+/*Para adaptar a laptops*/
+@media screen and (max-width: 1021px) {
+    /*Propiedades para la clase header*/
+    .header{
+        padding: 2rem 1.5rem;
+    }
+}
+
+/*Para adaptar a tablets*/
+@media screen and (max-width: 768px) {
+    /*Propiedades para la clase header*/
+    .header{
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-bottom: 29rem;
+        padding-left: 3rem;
+    }
+
+    /*Propiedades para la foto*/
+    .foto{
+        margin: 2rem 8rem;
+        width: 50%;
+        height: 50%;
+    }
+
+    /*Propiedades para el navegador*/
+    .menu{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    /*Propiedades para la lista*/
+    .menu__list{
+        flex-direction: column;
+    }
+
+    /*Propiedades para los items de la lista*/
+    .menu__list__item{
+        margin: .2rem .3rem;
+        font-size: 1rem;
+    }
+}
+
+/*Para adaptar a celulares*/
+@media screen and (max-width: 350px) {
+    /*Propiedades para la clase header*/
+    .header{
+        padding: 2.5% 1%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-bottom: 29rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    /*Propiedades para la foto*/
+    .foto{
+        margin: 2rem 6rem;
+        width: 40%;
+        height: 40%;
+    }
+}

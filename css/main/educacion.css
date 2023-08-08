@@ -1,0 +1,75 @@
+/*Propiedades de la sección educación*/
+
+/*Propiedades para la clase academic*/
+.academic{
+    width: 94%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+/*Propiedades para la clase academic title*/
+.academic__title{
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: var(--background-ceniza-medio);
+    border: .2rem solid #000000;
+}
+
+/*Propiedades para la clase academic courses*/
+.academic__courses{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*Propiedades para la clase academic courses box*/
+.academic__courses__box{
+    display: flex;
+    height: auto;
+    width: 20rem;
+    padding: .9rem;
+	background-color: var(--background-ceniza-oscuro);
+	text-align: center;
+	margin: 1.5%;
+    border: .2rem solid var(--boton-negro);
+    border-radius: 2%;
+	position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Propiedades para la clase academic courses list*/
+.academic__courses__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Propiedades para la clase academic courses item img*/
+.academic__courses__item__img{
+    padding: .5rem;
+}
+
+/*Propiedades para la clase academic courses item title*/
+.academic__courses__item__title{
+    padding: .5rem;
+    font-family: var(--montserrat);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Propiedades para la clase academic courses item subtitle*/
+.academic__courses__item__subtitle{
+   padding: .5rem;
+   font-family: var(--roboto);
+    font-size: 1rem;
+    text-align: center;
+}

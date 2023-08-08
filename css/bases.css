@@ -1,0 +1,48 @@
+/*Colores relevantes*/
+:root {
+    --background-header: #00161C;
+    --background-blanco: #FFFFFF;
+    --background-turquesa: #0f7a7a;
+    --background-ceniza-oscuro: #e2c8c8;
+    --background-ceniza-medio: #D9D9D9;
+    --backgroun-blanco: #ffffff;
+
+    --background-azul-oscuro: #103D4A;
+
+    --boton-negro: #000000;
+
+    --fuente-ceniza-claro: #666666;
+    --fuente-ceniza-oscuro: #4F4C4C;
+
+    --fuente-enlace: #2b4a58;
+
+    --background-footer: #333333;
+
+    --montserrat: 'Montserrat', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+}
+
+/*Propiedades para el cuerpo de página*/
+body{
+    background-color: var(--background-turquesa);
+    font-family: var(--roboto);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+/*Propiedades para la clase de contenedor*/
+.container{
+    padding-left: 6%;
+    padding-right: 6%;
+    width: 88%;
+    display: flex;
+    flex-grow: 2;
+    flex-shrink: 2;
+}

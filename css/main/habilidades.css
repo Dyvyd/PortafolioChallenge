@@ -1,0 +1,72 @@
+/*Propiedades de la sección habilidades*/
+
+/*Propiedades para la clase skills*/
+.skills{
+    width: 94%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+/*Propiedades para la clase skills title*/
+.skills__title{
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: var(--background-ceniza-medio);
+    border: .2rem solid #000000;
+}
+
+/*Propiedades para la clase skills line*/
+.skills__line{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/*Propiedades para la clase skills box*/
+.skills__box{
+    display: flex;
+    height: auto;
+    width: 8rem;
+    padding: .7rem;
+	background-color: var(--background-ceniza-oscuro);
+	text-align: center;
+	margin: 1.5%;
+    border: .2rem solid var(--boton-negro);
+    border-radius: 5%;
+	box-shadow: .3rem .3rem .3rem var(--background-footer);
+	position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Propiedades para la clase skills img*/
+.skills__img{
+    padding: 1%;
+}
+
+/*Propiedades para la clase skills skills name*/
+.skills__name{
+    position: relative;
+    font-family: var(--roboto);
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding: 1rem;
+}
+
+/*Para adaptar a celulares*/
+@media screen and (max-width: 350px) {
+    /*Propiedades para la clase skills*/
+    .skills{
+        justify-content: center;
+    }
+
+    /*Propiedades para la clase skills line*/
+    .skills__line{
+        justify-content: center;
+    }
+}

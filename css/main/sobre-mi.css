@@ -1,0 +1,57 @@
+/*Propiedades de la sección sobre mi*/
+
+/*Propiedades para la clase about*/
+.about{
+    width: 94.1%;
+    margin: 0;
+    display: block;
+    background-color: var(--background-ceniza-oscuro);
+    padding: .8rem 2rem;
+    border: .5rem solid #000000;
+    border-top: 0;
+}
+
+/*Propiedades para la clase about container*/
+.about__container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: end;
+    align-content: end;
+    align-items: end;
+    padding: 2rem;
+}
+
+/*Propiedades para la clase about title*/
+.about__title{
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: .5rem;
+}
+
+/*Propiedades para la clase about about paragraph*/
+.about__paragraph{
+    position: relative;
+    font-family: var(--roboto);
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding: 1rem 1rem 0 1rem;
+    text-align: right;  
+}
+
+/*Para adaptar a laptops*/
+@media screen and (max-width: 1021px) {
+    /*Propiedades para la clase about*/
+    .about{
+        width: 96%;
+    }
+}
+
+/*Para adaptar a tablets*/
+@media screen and (max-width: 768px) {
+    /*Propiedades para la clase about*/
+    .about{
+        width: 99%;
+    }
+}
